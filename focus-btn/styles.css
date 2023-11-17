@@ -10,4 +10,17 @@
   background-color: #6868f0;
   color: #fff;
   height: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.focus-btn:hover {
+  cursor: pointer;
+}
+
+.focus-btn:focus {
+  outline: 0px;
+  border-color: #007aa3;
+  background-color: #007aa3;
+  box-shadow: 0 0 0 3px rgba(0, 122, 163, 0.5);
 }

@@ -1,46 +1,63 @@
 <!DOCTYPE html>
-<html dir="rtl">
-    <head>
-        <title>دعوت شدگان</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <table>
-            <thead>
-                <tr>
-                    <th>ردیف</th>
-                    <th>نام</th>
-                    <th>نام خانوادگی</th>
-                </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>1</td>
-                <td>حمید</td>
-                <td>حمیدی</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>رضا</td>
-                <td>رضایی</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>علی</td>
-                <td>علیی</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>محمد</td>
-                <td>محمدی</td>
-            </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td>تعداد</td>
-                    <td colspan="2">4</td>
-                </tr>
-            </tfoot>
-        </table>
-    </body>
+<html>
+  <head>
+    <title>Invitation Table</title>
+    <style>
+      @font-face {
+        font-family: Vazir;
+        src: url("./assets/Vazir.ttf");
+      }
+      * {
+        font-family: Vazir;
+      }
+      table {
+        width: 100%;
+        max-width: 800px;
+        text-align: center;
+        border-collapse: collapse;
+        margin: 0 auto;
+        padding: 0px 10px;
+      }
+      tbody tr:hover {
+        background-color: #e7e7e7;
+      }
+
+      th, td {
+        border: #dddddd solid 1px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+    </style>
+    <meta charset="utf-8">
+  </head>
+  <body dir="rtl">
+    <table>
+      <thead>
+        <tr>
+          <th>ردیف</th>
+          <th>نام و نام خانوادگی</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>۱</td>
+          <td>حمید حمیدی</td>
+        </tr>
+        <tr>
+          <td>۲</td>
+          <td>رضا رضایی</td>
+        </tr>
+        <tr>
+          <td>۳</td>
+          <td>علی علوی</td>
+        </tr>
+        <tr>
+          <td>۴</td>
+          <td>محمد محمدی</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
